@@ -1,0 +1,92 @@
+
+Entrenando modelo: Logistic Regression
+c:\Users\drios\OneDrive\Desktop\Python\env\Lib\site-packages\sklearn\linear_model\_logistic.py:473: ConvergenceWarning: lbfgs failed to converge after 2000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=2000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+--- Referencia de IDs para el Modelo: Logistic Regression (Escenario B) ---
+ ID                                                                            Nombre Real
+  1                                                                    146101 - PH CESÁREA
+  2 146121 - PH PARTO VAGINAL CON PROCED., EXCEPTO ESTERILIZACIÓN Y/O DILATACIÓN Y LEGRADO
+  3                                                              146131 - PH PARTO VAGINAL
+  4                    158171 - MH NEONATO, PESO AL NACER >2499 GR SIN PROCEDIMIENTO MAYOR
+  5                                                   134161 - MH TRASTORNOS DEL ANTEPARTO
+  6                                              071141 - PH COLECISTECTOMÍA LAPAROSCÓPICA
+  7                            044153 - MH INFECCIONES E INFLAMACIONES RESPIRATORIAS W/MCC
+  8                    041023 - PH VENTILACIÓN MECÁNICA PROLONGADA SIN TRAQUEOSTOMÍA W/MCC
+  9                                              061131 - PH PROCEDIMIENTOS SOBRE APÉNDICE
+ 10                                                               146102 - PH CESÁREA W/CC
+--------------------------------------------------
+
+
+Entrenando modelo: Logistic Regression
+c:\Users\drios\OneDrive\Desktop\Python\env\Lib\site-packages\sklearn\linear_model\_logistic.py:473: ConvergenceWarning: lbfgs failed to converge after 2000 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=2000).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+--- Referencia de IDs para el Modelo: Logistic Regression (Escenario B) ---
+ ID                                                                            Nombre Real
+  1                                                                    146101 - PH CESÁREA
+  2 146121 - PH PARTO VAGINAL CON PROCED., EXCEPTO ESTERILIZACIÓN Y/O DILATACIÓN Y LEGRADO
+  3                                                              146131 - PH PARTO VAGINAL
+  4                    158171 - MH NEONATO, PESO AL NACER >2499 GR SIN PROCEDIMIENTO MAYOR
+  5                                                   134161 - MH TRASTORNOS DEL ANTEPARTO
+  6                                              071141 - PH COLECISTECTOMÍA LAPAROSCÓPICA
+  7                            044153 - MH INFECCIONES E INFLAMACIONES RESPIRATORIAS W/MCC
+  8                    041023 - PH VENTILACIÓN MECÁNICA PROLONGADA SIN TRAQUEOSTOMÍA W/MCC
+  9                                              061131 - PH PROCEDIMIENTOS SOBRE APÉNDICE
+ 10                                                               146102 - PH CESÁREA W/CC
+--------------------------------------------------
+
+Entrenando modelo: Random Forest
+
+--- Referencia de IDs para el Modelo: Random Forest (Escenario B) ---
+ ID                                                                            Nombre Real
+  1                                                                    146101 - PH CESÁREA
+  2 146121 - PH PARTO VAGINAL CON PROCED., EXCEPTO ESTERILIZACIÓN Y/O DILATACIÓN Y LEGRADO
+  3                                                              146131 - PH PARTO VAGINAL
+  4                    158171 - MH NEONATO, PESO AL NACER >2499 GR SIN PROCEDIMIENTO MAYOR
+  5                                                   134161 - MH TRASTORNOS DEL ANTEPARTO
+  6                                              071141 - PH COLECISTECTOMÍA LAPAROSCÓPICA
+  7                            044153 - MH INFECCIONES E INFLAMACIONES RESPIRATORIAS W/MCC
+  8                    041023 - PH VENTILACIÓN MECÁNICA PROLONGADA SIN TRAQUEOSTOMÍA W/MCC
+  9                                              061131 - PH PROCEDIMIENTOS SOBRE APÉNDICE
+ 10                                                               146102 - PH CESÁREA W/CC
+--------------------------------------------------
+
+--- Referencia de IDs para el Modelo: MLP (Escenario B) ---
+ ID                                                                            Nombre Real
+  1                                                                    146101 - PH CESÁREA
+  2 146121 - PH PARTO VAGINAL CON PROCED., EXCEPTO ESTERILIZACIÓN Y/O DILATACIÓN Y LEGRADO
+  3                                                              146131 - PH PARTO VAGINAL
+  4                    158171 - MH NEONATO, PESO AL NACER >2499 GR SIN PROCEDIMIENTO MAYOR
+  5                                                   134161 - MH TRASTORNOS DEL ANTEPARTO
+  6                                              071141 - PH COLECISTECTOMÍA LAPAROSCÓPICA
+  7                            044153 - MH INFECCIONES E INFLAMACIONES RESPIRATORIAS W/MCC
+  8                    041023 - PH VENTILACIÓN MECÁNICA PROLONGADA SIN TRAQUEOSTOMÍA W/MCC
+  9                                              061131 - PH PROCEDIMIENTOS SOBRE APÉNDICE
+ 10                                                               146102 - PH CESÁREA W/CC
+--------------------------------------------------
+
+=== RESUMEN DE MÉTRICAS ESCENARIO B ===
+  Escenario               Modelo  Accuracy  Accuracy@5  Recall_macro  \
+0         B  Logistic Regression  0.259993    0.008136      0.057868   
+1         B        Random Forest  0.631058    0.004245      0.329933   
+2         B                  MLP  0.347718    0.004952      0.106078   
+
+   Recall_weighted  F1_macro  F1_weighted   AUC_OvR     Brier  
+0         0.259993  0.045297     0.187593  0.864228  0.002073  
+1         0.631058  0.323268     0.592039  0.961693  0.002931  
+2         0.347718  0.098821     0.301572  0.871494  0.002755  

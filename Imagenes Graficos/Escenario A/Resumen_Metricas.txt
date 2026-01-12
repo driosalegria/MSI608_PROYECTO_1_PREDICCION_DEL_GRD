@@ -1,0 +1,56 @@
+--- Referencia de IDs para el Modelo: Logistic Regression (Escenario A) ---
+ ID                                                                            Nombre Real
+  1                                                                    146101 - PH CESÁREA
+  2 146121 - PH PARTO VAGINAL CON PROCED., EXCEPTO ESTERILIZACIÓN Y/O DILATACIÓN Y LEGRADO
+  3                                                              146131 - PH PARTO VAGINAL
+  4                    158171 - MH NEONATO, PESO AL NACER >2499 GR SIN PROCEDIMIENTO MAYOR
+  5                                                   134161 - MH TRASTORNOS DEL ANTEPARTO
+  6                                              071141 - PH COLECISTECTOMÍA LAPAROSCÓPICA
+  7                            044153 - MH INFECCIONES E INFLAMACIONES RESPIRATORIAS W/MCC
+  8                    041023 - PH VENTILACIÓN MECÁNICA PROLONGADA SIN TRAQUEOSTOMÍA W/MCC
+  9                                              061131 - PH PROCEDIMIENTOS SOBRE APÉNDICE
+ 10                                                               146102 - PH CESÁREA W/CC
+--------------------------------------------------
+
+
+
+--- Referencia de IDs para el Modelo: Random Forest (Escenario A) ---
+ ID                                                                            Nombre Real
+  1                                                                    146101 - PH CESÁREA
+  2 146121 - PH PARTO VAGINAL CON PROCED., EXCEPTO ESTERILIZACIÓN Y/O DILATACIÓN Y LEGRADO
+  3                                                              146131 - PH PARTO VAGINAL
+  4                    158171 - MH NEONATO, PESO AL NACER >2499 GR SIN PROCEDIMIENTO MAYOR
+  5                                                   134161 - MH TRASTORNOS DEL ANTEPARTO
+  6                                              071141 - PH COLECISTECTOMÍA LAPAROSCÓPICA
+  7                            044153 - MH INFECCIONES E INFLAMACIONES RESPIRATORIAS W/MCC
+  8                    041023 - PH VENTILACIÓN MECÁNICA PROLONGADA SIN TRAQUEOSTOMÍA W/MCC
+  9                                              061131 - PH PROCEDIMIENTOS SOBRE APÉNDICE
+ 10                                                               146102 - PH CESÁREA W/CC
+
+
+
+
+--- Referencia de IDs para el Modelo: MLP (Escenario A) ---
+ ID                                                                            Nombre Real
+  1                                                                    146101 - PH CESÁREA
+  2 146121 - PH PARTO VAGINAL CON PROCED., EXCEPTO ESTERILIZACIÓN Y/O DILATACIÓN Y LEGRADO
+  3                                                              146131 - PH PARTO VAGINAL
+  4                    158171 - MH NEONATO, PESO AL NACER >2499 GR SIN PROCEDIMIENTO MAYOR
+  5                                                   134161 - MH TRASTORNOS DEL ANTEPARTO
+  6                                              071141 - PH COLECISTECTOMÍA LAPAROSCÓPICA
+  7                            044153 - MH INFECCIONES E INFLAMACIONES RESPIRATORIAS W/MCC
+  8                    041023 - PH VENTILACIÓN MECÁNICA PROLONGADA SIN TRAQUEOSTOMÍA W/MCC
+  9                                              061131 - PH PROCEDIMIENTOS SOBRE APÉNDICE
+ 10                                                               146102 - PH CESÁREA W/CC
+--------------------------------------------------
+
+=== RESUMEN DE MÉTRICAS ESCENARIO A ===
+  Escenario               Modelo  Accuracy  Accuracy@5  Recall_macro  \
+0         A  Logistic Regression  0.128405    0.006367      0.015817   
+1         A        Random Forest  0.409268    0.003891      0.199814   
+2         A                  MLP  0.279802    0.004245      0.092673   
+
+   Recall_weighted  F1_macro  F1_weighted   AUC_OvR     Brier  
+0         0.128405  0.006118     0.045623  0.755182  0.001825  
+1         0.409268  0.186954     0.378423  0.843039  0.003170  
+2         0.279802  0.071648     0.193581  0.922737  0.002108  
